@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  text-align: left;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header-left p {
+  margin: 5px 0;
+}
+
+.header-right img {
+  max-width: 500px; /* Increase this value to make the image larger */
+  height: auto;
+  border-radius: 80%; /* Optional: for a circular image */
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.education {
+  background-color: #d1e7dd;
+}
+
+.experience {
+  background-color: #f8d7da;
+}
+
+.project {
+  background-color: #cff4fc;
+}
+
+#certificates ul,
+#skills ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#certificates li,
+#skills li {
+  background-color: #e2e3e5;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
